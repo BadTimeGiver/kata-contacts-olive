@@ -20,16 +20,27 @@ public class App {
     }
 
     public static void main(String[] args) {
-        if (args.length != 1) {
+        int batchSize = 500;
+        if (args.length == 0) {
             System.err.println("Not enough args");
             System.exit(2);
+        } else if (args.length > 2 ){
+            System.err.println("Too much args");
+            System.exit(2);
+        } else if (args.length == 2) {
+            batchSize = Integer.parseInt(args[1]);
         }
+
         int count = Integer.parseInt(args[0]);
 
         App app = null;
         try {
             app = new App();
-            app.contactsGenerator.insertManyContacts(count);
+            long start = System.currentTimeMillis();
+            app.contactsGenerator.insertManyContacts(count, batchSize);
+            long end = System.currentTimeMillis();
+            long elapsed = end - start;
+            System.out.format("Creation Query took %d ms\n", elapsed);
             app.lookupContact(count);
         } finally {
             if (app != null) {
@@ -44,7 +55,7 @@ public class App {
         var contact = database.findContactByEmail(email);
         long end = System.currentTimeMillis();
         long elapsed = end - start;
-        System.out.format("Query took %d ms\n", elapsed);
+        System.out.format("Search Query took %d ms\n", elapsed);
         if (contact.isEmpty()) {
             throw new RuntimeException("Contact not found");
         }

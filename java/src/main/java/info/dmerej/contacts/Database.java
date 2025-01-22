@@ -68,5 +68,4 @@ public class Database {
             throw new RuntimeException("Could not close db: " + e);
         }
     }
-
 }
