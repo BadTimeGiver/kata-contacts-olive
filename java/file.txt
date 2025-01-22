@@ -6,65 +6,65 @@ Search Query took 0 ms
 
 Test for 100 elements and batch of 1000
 Inserting 100 contacts ...
-Creation Query took 4 ms
+Creation Query took 3 ms
 Search Query took 0 ms
 
 Test for 1000 elements and batch of 1000
 Inserting 1000 contacts ...
-Creation Query took 7 ms
+Creation Query took 6 ms
 Search Query took 1 ms
 
 Test for 10000 elements and batch of 1000
 Inserting 10000 contacts ...
-Creation Query took 24 ms
+Creation Query took 29 ms
 Search Query took 1 ms
 
-Test for 50_000 elements and batch of 1000
+Test for 50000 elements and batch of 1000
 Inserting 50000 contacts ...
-Creation Query took 86 ms
+Creation Query took 88 ms
 Search Query took 0 ms
 
-Test for 100_000 elements and batch of 1000
+Test for 100000 elements and batch of 1000
 Inserting 100000 contacts ...
-Creation Query took 150 ms
-Search Query took 1 ms
+Creation Query took 155 ms
+Search Query took 0 ms
 
-Test for 1_000_000 elements and batch of 1000
+Test for 1000000 elements and batch of 1000
 Inserting 1000000 contacts ...
-Creation Query took 1305 ms
+Creation Query took 1278 ms
 Search Query took 1 ms
 
 Test for 10 elements and batch of 500
 Inserting 10 contacts ...
-Creation Query took 5 ms
+Creation Query took 3 ms
 Search Query took 0 ms
 
 Test for 100 elements and batch of 500
 Inserting 100 contacts ...
-Creation Query took 3 ms
+Creation Query took 6 ms
 Search Query took 0 ms
 
-Test for 1000 elements and batch of 1050000
+Test for 1000 elements and batch of 500
 Inserting 1000 contacts ...
-Creation Query took 6 ms
+Creation Query took 10 ms
 Search Query took 0 ms
 
 Test for 10000 elements and batch of 500
 Inserting 10000 contacts ...
-Creation Query took 20 ms
-Search Query took 0 ms
+Creation Query took 33 ms
+Search Query took 1 ms
 
-Test for 50_000 elements and batch of 500
+Test for 50000 elements and batch of 500
 Inserting 50000 contacts ...
-Creation Query took 91 ms
-Search Query took 1 ms
-
-Test for 100_000 elements and batch of 500
-Inserting 100000 contacts ...
-Creation Query took 149 ms
-Search Query took 1 ms
-
-Test for 1_000_000 elements and batch of 500
-Inserting 1000000 contacts ...
-Creation Query took 1283 ms
+Creation Query took 74 ms
 Search Query took 0 ms
+
+Test for 100000 elements and batch of 500
+Inserting 100000 contacts ...
+Creation Query took 142 ms
+Search Query took 1 ms
+
+Test for 1000000 elements and batch of 500
+Inserting 1000000 contacts ...
+Creation Query took 1326 ms
+Search Query took 1 ms
