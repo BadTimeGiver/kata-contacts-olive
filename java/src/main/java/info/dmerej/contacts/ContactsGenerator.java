@@ -38,7 +38,6 @@ public class ContactsGenerator {
 
             // Execute remaining batch
             statement.executeBatch();
-            System.out.println("Insertion done!");
         } catch (SQLException e) {
             throw new RuntimeException("Failed to insert contacts into the database", e);
         }

@@ -1,0 +1,70 @@
+
+Test for 10 elements and batch of 1000
+Inserting 10 contacts ...
+Creation Query took 4 ms
+Search Query took 0 ms
+
+Test for 100 elements and batch of 1000
+Inserting 100 contacts ...
+Creation Query took 4 ms
+Search Query took 0 ms
+
+Test for 1000 elements and batch of 1000
+Inserting 1000 contacts ...
+Creation Query took 7 ms
+Search Query took 1 ms
+
+Test for 10000 elements and batch of 1000
+Inserting 10000 contacts ...
+Creation Query took 24 ms
+Search Query took 1 ms
+
+Test for 50_000 elements and batch of 1000
+Inserting 50000 contacts ...
+Creation Query took 86 ms
+Search Query took 0 ms
+
+Test for 100_000 elements and batch of 1000
+Inserting 100000 contacts ...
+Creation Query took 150 ms
+Search Query took 1 ms
+
+Test for 1_000_000 elements and batch of 1000
+Inserting 1000000 contacts ...
+Creation Query took 1305 ms
+Search Query took 1 ms
+
+Test for 10 elements and batch of 500
+Inserting 10 contacts ...
+Creation Query took 5 ms
+Search Query took 0 ms
+
+Test for 100 elements and batch of 500
+Inserting 100 contacts ...
+Creation Query took 3 ms
+Search Query took 0 ms
+
+Test for 1000 elements and batch of 1050000
+Inserting 1000 contacts ...
+Creation Query took 6 ms
+Search Query took 0 ms
+
+Test for 10000 elements and batch of 500
+Inserting 10000 contacts ...
+Creation Query took 20 ms
+Search Query took 0 ms
+
+Test for 50_000 elements and batch of 500
+Inserting 50000 contacts ...
+Creation Query took 91 ms
+Search Query took 1 ms
+
+Test for 100_000 elements and batch of 500
+Inserting 100000 contacts ...
+Creation Query took 149 ms
+Search Query took 1 ms
+
+Test for 1_000_000 elements and batch of 500
+Inserting 1000000 contacts ...
+Creation Query took 1283 ms
+Search Query took 0 ms

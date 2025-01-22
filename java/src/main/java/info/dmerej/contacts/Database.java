@@ -22,7 +22,6 @@ public class Database {
     }
 
     public void migrate() {
-        System.out.println("Migrating database ...");
         try {
             Statement statement = connection.createStatement();
             statement.execute("""
@@ -31,12 +30,16 @@ public class Database {
                 name TEXT NOT NULL,
                 email TEXT NOT NULL
                 )
+
                 """
             );
+
+            statement.execute("""
+                CREATE UNIQUE INDEX index_contacts_email ON contacts(email)
+            """);
         } catch (SQLException e) {
             throw new RuntimeException("Could not migrate db: " + e);
         }
-        System.out.println("Done migrating database");
     }
 
 
